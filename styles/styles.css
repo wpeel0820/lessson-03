@@ -1,0 +1,54 @@
+body {
+    background-color: azure;
+   }
+html {
+    font-family: Palatino;
+}
+h1 {
+    color: darkslateblue;
+}
+h2 {
+    color: darkslateblue;
+    width: 75%;
+}
+h3 {
+    color:darkslateblue
+}
+p {
+    width: 60%;
+}
+p::first-letter {
+    font-size: 200%;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    border-style: solid;
+    border-color: lightsalmon;
+    border-width: 2px;
+    width: 50%;
+   }
+a[href="https://williams-sonoma.com"] {
+    background-color: #252525;
+   }
+a[href="https://buywithprime.amazon.com"] {
+    background-color: #00a8e1;
+   }
+a:hover {
+    text-decoration: underline;
+    font-size: 200%;
+    color:blueviolet;
+    background-color: aquamarine;
+
+}
+a:visited {
+    color: pink;
+}
+footer {
+    color:darkcyan;
+    font-size: 75%;
+}
+
+
+

@@ -8,7 +8,7 @@ body {
     background-color: white;
     padding: 1rem;
     border: 2px solid gray;
-    margin: 1.5rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 .graphic-design {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
     background-color: white;
     padding: 1rem;
     border: 2px solid gray;
-    margin: 1.5rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 .horror {
     box-sizing: border-box;
@@ -26,13 +26,15 @@ body {
     background-color: white;
     padding: 1rem;
     border: 2px solid gray;
-    margin: 1.5rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 .container {
     background-color: pink;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 }
 h1 {
     color: darkslateblue;

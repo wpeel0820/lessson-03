@@ -1,9 +1,6 @@
 body {
     background-color: azure;
    }
-html {
-    font-family: Palatino;
-}
 h1 {
     color: darkslateblue;
 }
@@ -45,7 +42,11 @@ a:hover {
 a:visited {
     color: pink;
 }
+.fa-ghost {
+    color: darkslateblue;
+}
 footer {
+    font-family: Ojuju, serif;
     color:darkcyan;
     font-size: 75%;
 }

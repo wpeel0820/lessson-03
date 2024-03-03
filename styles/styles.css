@@ -1,18 +1,52 @@
 body {
     background-color: azure;
    }
+.risograph {
+    box-sizing: border-box;
+    height: max-content;
+    width: max-content;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid gray;
+    margin: 1.5rem 0.5rem;
+}
+.graphic-design {
+    box-sizing: border-box;
+    height: max-content;
+    width: max-content;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid gray;
+    margin: 1.5rem 0.5rem;
+}
+.horror {
+    box-sizing: border-box;
+    height: max-content;
+    width: max-content;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid gray;
+    margin: 1.5rem 0.5rem;
+}
+.container {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 h1 {
     color: darkslateblue;
 }
 h2 {
+
     color: darkslateblue;
-    width: 75%;
+    width: 50%;
 }
 h3 {
     color:darkslateblue
 }
 p {
-    width: 60%;
+    width: 100%;
 }
 p::first-letter {
     font-size: 200%;
@@ -24,7 +58,7 @@ img {
     border-style: solid;
     border-color: lightsalmon;
     border-width: 2px;
-    width: 50%;
+    height: 40%;
    }
 a[href="https://williams-sonoma.com"] {
     background-color: #252525;
@@ -34,7 +68,6 @@ a[href="https://buywithprime.amazon.com"] {
    }
 a:hover {
     text-decoration: underline;
-    font-size: 200%;
     color:blueviolet;
     background-color: aquamarine;
 
@@ -43,6 +76,12 @@ a:visited {
     color: pink;
 }
 .fa-ghost {
+    color: darkslateblue;
+}
+.fa-palette {
+    color: darkslateblue;
+}
+.fa-print {
     color: darkslateblue;
 }
 footer {

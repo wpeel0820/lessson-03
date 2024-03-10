@@ -7,7 +7,6 @@ body {
     width: max-content;
     background-color: white;
     padding: 1rem;
-    border: 2px solid gray;
     margin: 1rem 0.5rem;
 }
 .graphic-design {
@@ -16,7 +15,6 @@ body {
     width: max-content;
     background-color: white;
     padding: 1rem;
-    border: 2px solid gray;
     margin: 1rem 0.5rem;
 }
 .horror {
@@ -25,7 +23,6 @@ body {
     width: max-content;
     background-color: white;
     padding: 1rem;
-    border: 2px solid gray;
     margin: 1rem 0.5rem;
 }
 .container {
@@ -35,6 +32,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 0.5rem;
+}
+div:not(.container):hover {
+    border: 3px solid gray;
+    transition: border 3s ease-in 1s;
 }
 h1 {
     color: darkslateblue;
@@ -56,11 +57,21 @@ p::first-letter {
 ul {
     list-style-type: none;
 }
+li:nth-child(even) {
+    background: lightgreen;
+  }
+li:nth-child(odd) {
+    background: lightskyblue;
+  }
 img {
     border-style: solid;
     border-color: lightsalmon;
     border-width: 2px;
    }
+img:hover {
+    opacity: 0.4;
+    transition: 4s;
+}
 a[href="https://williams-sonoma.com"] {
     background-color: #252525;
    }
@@ -71,7 +82,6 @@ a:hover {
     text-decoration: underline;
     color:blueviolet;
     background-color: aquamarine;
-
 }
 a:visited {
     color: pink;
